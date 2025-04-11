@@ -1,0 +1,13 @@
+name: Day 4 - Hello GitHub Actions
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run a greeting script
+        run: echo "👋 Hello from GitHub Actions!"
