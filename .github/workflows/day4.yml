@@ -1,4 +1,4 @@
-name: Day 4 - Hello GitHub Actions
+name: 🚀 Day 4 - Node CI Workflow
 
 on: [push]
 
